@@ -13,7 +13,7 @@ import user.management.pojo.User;
 import user.management.service.UserManagementService;
 
 @RestController
-@RequestMapping("/test")
+@RequestMapping("/user")
 @CrossOrigin(origins = "*", allowedHeaders = "*")
 public class UserManagementController {
 
